@@ -1,0 +1,31 @@
+.heroImageContainer {
+  background: rgba(0, 0, 0, 0.3)
+    url("https://images.unsplash.com/photo-1565197800636-9faab6353ae1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1975&q=80")
+    center/cover fixed no-repeat;
+  background-blend-mode: darken;
+  width: 100%;
+  height: calc(100vh - 50px);
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImageContainer > h1 {
+  font-size: 6rem;
+}
+.heroImageContainer > p {
+  font-size: 2.5rem;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  background: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}

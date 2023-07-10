@@ -1,0 +1,37 @@
+.formWrapper {
+  display: flex;
+  width: 100%;
+  background: var(--primary);
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.formWrapper > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
+
+.formWrapper > form > input,
+.formWrapper > form > textarea {
+  background: var(--primary);
+  outline-width: 0;
+  border: none;
+  border-bottom: 2px solid var(--textColor);
+  padding: 10px;
+  color: #fff;
+}
+
+::placeholder {
+  color: #ccc;
+}
+.formWrapper > form > button {
+  font-weight: 700;
+  background: var(--background);
+  outline-width: 0;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
